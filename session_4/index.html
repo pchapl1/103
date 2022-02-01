@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Tamagotchi</h1>
+    </header>
+
+    <main>
+        <div class="welcome">
+            <h2>Welcome!</h2>
+            <p>This girl's name is Shakira.  Help her out with some food or give a pet or two.  Have fun</p>
+            <hr>
+        </div>
+        <div class='main-img container'>
+            <div class="img-buttons">
+                <img src="https://tamagotchi.com/wp-content/uploads/violetchi.jpg" alt="">
+                <div class="button-container">
+                    <button onclick="feed()"> 🥄 Feed </button>
+                    <button onclick="pet()"> ✨ Pet</button>
+                    <button onclick="play()">Play</button>
+                </div>
+            </div>
+            <div class="stats">
+                <p id="hunger-info"></p>
+                <p id="happiness-info"> </p>
+                <p id="energy-info"></p>
+            </div>
+        </div>
+    </main> 
+
+    <script src="static/main.js"></script>
+</body>
+
+<footer>
+    <p>all rights reserved &copy; Phillip Chaplin 2022</p>
+</footer>
+</html>
